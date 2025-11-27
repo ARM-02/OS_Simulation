@@ -566,6 +566,7 @@ def main():
    safe_print(f"Total passengers:       {stats['total_passengers']}")
    safe_print(f"Boarded ships:          {stats['boarded']}")
    safe_print(f"Stranded passengers:    {stats['stranded']}")
+   safe_print(f"Deaths:    {stats['died_shark']+stats['died_cliff']}")
    safe_print("")
    safe_print("---- ACTIVITY INCIDENTS ----")
    safe_print(f"Got drunk:              {stats['drunk']}")
